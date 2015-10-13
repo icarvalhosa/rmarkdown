@@ -1552,18 +1552,18 @@ input {
 }
 
 /* Transition Slide */
-.TranSlide slides > slide{
+.TranSlide {
   background-image: url(../img/SlideBackground1.PNG);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 101% 101%;
 }
 
-.TranSlide slides > slide hgroup {
+.TranSlide hgroup {
   bottom: 160px;
 }
 
-.TranSlide slides > slide hgroup h1 {
+.TranSlide hgroup h1 {
   font-size: 65px;
   line-height: 1.4;
   letter-spacing: -3px;
@@ -1571,14 +1571,14 @@ input {
   font-family: 'Calibri', Arial, sans-serif;
 }
 
-.TranSlide slides > slide hgroup h2 {
+.TranSlide hgroup h2 {
   font-size: 34px;
   color: #FFFFFF;
   font-weight: inherit;
   font: Calibri;
 }
 
-.TranSlide slides > slide hgroup p {
+.TranSlide hgroup p {
   font-size: 20px;
   color: #FFFFFF;
   line-height: 1.3;
