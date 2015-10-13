@@ -1512,3 +1512,145 @@ input {
   font-size: 14px;
 }
 
+
+/* Custom CSS */
+
+/* Title Slide */
+
+.title-slide {
+  background-image: url(../img/SlideBackground1.PNG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 101% 101%;
+}
+
+.title-slide hgroup {
+  bottom: 160px;
+}
+
+.title-slide hgroup h1 {
+  font-size: 65px;
+  line-height: 1.4;
+  letter-spacing: -3px;
+  color: #FFFFFF;
+  font-family: 'Calibri', Arial, sans-serif;
+}
+
+.title-slide hgroup h2 {
+  font-size: 34px;
+  color: #FFFFFF;
+  font-weight: inherit;
+  font: Calibri;
+}
+
+.title-slide hgroup p {
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 1.3;
+  margin-top: 2em;
+  font-family: 'Calibri', Arial, sans-serif;
+}
+
+/* Transition Slide */
+#TranSlide {
+  background-image: url(../img/SlideBackground1.PNG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 101% 101%;
+}
+
+#TranSlide hgroup {
+  bottom: 160px;
+}
+
+#TranSlide hgroup h1 {
+  font-size: 65px;
+  line-height: 1.4;
+  letter-spacing: -3px;
+  color: #FFFFFF;
+  font-family: 'Calibri', Arial, sans-serif;
+}
+
+#TranSlide hgroup h2 {
+  font-size: 34px;
+  color: #FFFFFF;
+  font-weight: inherit;
+  font: Calibri;
+}
+
+#TranSlide hgroup p {
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 1.3;
+  margin-top: 2em;
+  font-family: 'Calibri', Arial, sans-serif;
+}
+
+/* body Slides */
+
+slides > slide {
+  background-image: url(../img/SlideBackground2.PNG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 101% 101%;
+  
+  display: none;
+  font-family: 'Calibri', Arial, sans-serif;
+  font-size: 24px;
+  color: #3C3C3C;
+}
+
+
+slides > slide:not(.nobackground):after {
+  font-size: 10pt;  
+  content: attr(data-slide-num);
+  position: absolute;
+  bottom: 2px;
+  right: 49.7%;
+  color: #3C3C3C;
+}
+
+slides > slide > hgroup + article {
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 56px;
+  letter-spacing: -2px;
+  color: #00539A;
+  font-family: 'Calibri', Arial, sans-serif;
+}
+
+#sideframe {
+    border: none;
+    width: 50%;
+    height: 400px;
+    margin: 12 0 0 0;
+    padding: 0;
+	float: left;
+	overflow:hidden;
+    display: block;
+}
+
+#mframe{
+    border: none;
+    width: 100%;
+    height: 360px;
+    margin: 12 0 0 0;
+    padding: 0;
+	overflow:hidden;
+    display: block;
+}
+
+#lframe {
+	border: none;
+    width: 100%;
+    height: 460px;
+    margin: 12 0 0 0;
+    padding: 0;
+	overflow:hidden;
+    display: block;
+}
+
+/* ---- */
