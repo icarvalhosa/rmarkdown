@@ -1559,8 +1559,8 @@ input {
   background-size: 101% 101%;
 }
 
-.TranSlide hgroup {
-  bottom: 160px;
+.title-slide hgroup {
+  bottom: 140px;
 }
 
 .TranSlide hgroup h1 {
